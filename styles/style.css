@@ -262,7 +262,7 @@ z-index: 10; /*При малых разрешениях будет поверх 
 }
 
 /* Принципы обучения */
-.kaufman__section-title_theme-dark {
+.section-title_theme_dark {
   color: #f2f2f2;
   width: 60%;
   margin: 90px 0 20px 0;
@@ -273,7 +273,7 @@ z-index: 10; /*При малых разрешениях будет поверх 
 }
 
 /* От Кауфмана */
-.kaufman__section-subtitle_theme-dark {
+.section-subtitle_theme_dark {
   color: #f2f2f2;
   width: 60%;
   margin: 0px;  
@@ -284,7 +284,7 @@ z-index: 10; /*При малых разрешениях будет поверх 
 }
 
 /* Все ячейки */
-.kaufman__table_theme-dark {
+.table_theme_dark {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -293,13 +293,13 @@ z-index: 10; /*При малых разрешениях будет поверх 
 }
 
 /* Ячейка */
-.kaufman__table-cell_theme-dark {
+.table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
 }
 
 /* Цифры */
-.kaufman__table-heading_theme-dark {
+.table__heading_theme_dark {
   color: #f2f2f2;
   margin-bottom: 20px;
   margin-top: 0;
@@ -309,7 +309,7 @@ z-index: 10; /*При малых разрешениях будет поверх 
 }
 
 /* Текст */
-.kaufman__table-text_theme-dark {
+.table__text_theme_dark {
   color: #f2f2f2;
   line-height: 1.2; /*Высота строки*/
   font-size: 18px; /*Размер шрифта*/
@@ -345,7 +345,7 @@ background-color: #1f1f1f;
 }
 
 /* 1 колонка */
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
