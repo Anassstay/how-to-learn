@@ -54,8 +54,9 @@
   width: 388px;
   position: absolute;
   /*Абсолютное позиционирование*/
-  margin: 0 0 0 64px;
+  margin: 0;
   bottom: 30px;
+  left: 64px;
   z-index: 10;
   /*При малых разрешениях будет поверх блоков*/
   align-items: flex-start;
