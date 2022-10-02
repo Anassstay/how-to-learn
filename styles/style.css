@@ -149,6 +149,7 @@
   font-weight: normal;
   /*Начертание шрифта*/
   margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .two-columns__paragraph:last-child {
