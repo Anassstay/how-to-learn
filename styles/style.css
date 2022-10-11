@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+  transform: rotate(0deg);
+  }
+  to {
+  transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -7,6 +16,14 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.link {
+  transition: opacity.3s linear;
+}
+
+.link:hover {
+  opacity: .5;
 }
 
 .header {
@@ -96,12 +113,16 @@
   background-size: cover;
   width: 568px;
   height: 568px;
+  animation: rotation 20s infinite;
+  overflow: hidden;
+  /*Скрыть переполнение родительского блока при повороте*/
 }
 
 .description {
-  margin-top: 100px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .two-columns {
@@ -167,23 +188,108 @@
 }
 
 /* Блок */
+.techniques {
+  width: 80%;
+  margin: 100px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+   list-style: none;
+   margin: 0 ;
+   padding: 0;
+   width: 920px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.cards__item {
+  width: 240px;
+  margin: 0 100px 0 0;
+}
+
+.cards__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.cards__image {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px 40px;
+}
+
+.cards__title {
+  padding: 0 0 16px 0;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cards__description {
+  margin: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* Блок */
+.video {
+  top: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+.video__iframes {
+  margin: 50px auto 0 auto;
+  display: flex;
+  gap: 0 20px;
+}
+
+.video__iframe {
+  height: 316px;
+  width: 515px;
+}
+
+.oakley {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 160px 0 100px 0;
+  background-color: #f2f2f2;
+  z-index: 1;
+}
+
+/* Блок */
 .digits {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  margin: 100px 0 0 0;
 }
 
 /* Цифры и факты */
 .section-title {
   width: 60%;
-  margin: 100px 0 20px 0;
+  margin: 0 0 20px 0;
   line-height: 1.15;
   /*Высота строки*/
   font-size: 60px;
   /*Размер шрифта*/
   font-weight: 600;
   /*Начертание шрифта*/
+  text-align: center;
 }
 
 /* Про учебу и мозг */
@@ -196,6 +302,7 @@
   font-weight: normal;
   /*Начертание шрифта*/
   margin: 0;
+  text-align: center;
 }
 
 /* Ячейка со всеми карточками */
@@ -298,6 +405,74 @@
   z-index: -1;
 }
 
+.khan {
+  background-color: #f2f2f2;
+  padding: 105px 0 0 0;
+}
+
+.khan_container {
+  width: 80%;
+  margin: 100px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.khan__autor {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 50px 0 36px 0;
+  width: 790px;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 10px 0 68px 0;
+}
+
+.khan__book-container {
+  display: flex;
+
+}
+
+.khan__book-pic {
+  width: 608px;
+  height: 620px;
+  margin: 0 48px 0 0;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+  text-decoration: none;
+}
+
 /* Блок */
 .kaufman {
   background-color: #1f1f1f;
@@ -386,6 +561,31 @@
   z-index: -1;
   right: -210px;
   top: 0;
+  animation: rotation 20s infinite;
+  overflow: hidden;
+  /*Скрыть переполнение родительского блока при повороте*/
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 217px auto;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px 0 0 0;
+}
+
+.resources__link {
+  
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
 }
 
 /* Весь блок */
