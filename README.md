@@ -14,15 +14,8 @@
 * Принципы обучения от Джона Кауфмана
 * Полезные ресурсы
 
-<<<<<<< HEAD
 ## Проект требует доработки
 
-<p>
-  <img src="//media.giphy.com/media/z8rEcJ6I0hiUM/giphy.gif" width="150px"/>
-</p>
-=======
-+ Проект требует доработки
-![gif](//media.giphy.com/media/z8rEcJ6I0hiUM/giphy.gif)
->>>>>>> 3d725f237388f3ae7dc05c5ccb85a246359faf23
+![](http://media.giphy.com/media/z8rEcJ6I0hiUM/giphy.gif)
 
 © Анастасия Федина
