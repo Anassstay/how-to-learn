@@ -1,0 +1,11 @@
+.footer__author {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  line-height: 25px;
+    /*Высота строки*/
+  font-size: 18px;
+    /*Размер шрифта*/
+  font-weight: normal;
+    /*Начертание шрифта*/
+  color: #f2f2f2;
+}

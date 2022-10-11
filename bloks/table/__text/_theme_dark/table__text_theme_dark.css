@@ -1,0 +1,9 @@
+.table__text_theme_dark {
+  color: #f2f2f2;
+  line-height: 1.2;
+  /*Высота строки*/
+  font-size: 18px;
+  /*Размер шрифта*/
+  font-weight: normal;
+  /*Начертание шрифта*/
+}

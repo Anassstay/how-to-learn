@@ -1,0 +1,13 @@
+.header__square-pic {
+  position: absolute;
+    /*Абсолютное позиционирование*/
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
+  background-size: cover;
+  width: 568px;
+  height: 568px;
+  animation: rotation 20s infinite;
+  overflow: hidden;
+    /*Скрыть переполнение родительского блока при повороте*/
+}

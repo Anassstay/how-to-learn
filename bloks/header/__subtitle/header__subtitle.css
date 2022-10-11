@@ -1,0 +1,19 @@
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+    /*Абсолютное позиционирование*/
+  margin: 0;
+  bottom: 30px;
+  left: 64px;
+  z-index: 10;
+    /*При малых разрешениях будет поверх блоков*/
+  align-items: flex-start;
+    /*Вертикальное центрирование элемента*/
+  justify-content: start;
+  line-height: 25px;
+    /*Высота строки*/
+  font-size: 18px;
+    /*Размер шрифта*/
+  font-weight: normal;
+    /*Начертание шрифта*/
+ }  

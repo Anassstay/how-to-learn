@@ -1,0 +1,11 @@
+.table__text {
+    line-height: 1.2;
+    /*Высота строки*/
+    font-size: 18px;
+    /*Размер шрифта*/
+    font-weight: normal;
+    /*Начертание шрифта*/
+    margin: 20px 0 0 0;
+    padding: 0px;
+    list-style: none;
+  }
