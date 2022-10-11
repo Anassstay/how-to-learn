@@ -1,0 +1,13 @@
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.two-columns__main-text:last-child {
+  margin-bottom: 0;
+}

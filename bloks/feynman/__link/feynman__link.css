@@ -1,0 +1,13 @@
+.feynman__link {
+  right: 48px;
+  position: absolute;
+  top: 50%;
+  line-height: 51px;
+    /*Высота строки*/
+  font-size: 36px;
+    /*Размер шрифта*/
+  font-weight: normal;
+    /*Начертание шрифта*/
+  color: #2f80ed;
+  text-decoration: none;
+}

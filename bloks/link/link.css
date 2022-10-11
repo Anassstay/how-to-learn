@@ -1,0 +1,16 @@
+@keyframes rotation {
+  from {
+  transform: rotate(0deg);
+  }
+  to {
+  transform: rotate(360deg);
+  }
+}
+
+.link {
+  transition: opacity.3s linear;
+}
+  
+.link:hover {
+  opacity: .5;
+}

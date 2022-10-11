@@ -1,0 +1,11 @@
+.section-title {
+  width: 60%;
+  margin: 0 0 20px 0;
+  line-height: 1.15;
+  /*Высота строки*/
+  font-size: 60px;
+  /*Размер шрифта*/
+  font-weight: 600;
+  /*Начертание шрифта*/
+  text-align: center;
+}
