@@ -17,7 +17,7 @@
 ## Проект требует доработки
 
 <p>
-  <img src="//media.giphy.com/media/z8rEcJ6I0hiUM/giphy.gif" width="100px"/>
+  <img src="//media.giphy.com/media/z8rEcJ6I0hiUM/giphy.gif" width="150px"/>
 </p>
 
 © Анастасия Федина
