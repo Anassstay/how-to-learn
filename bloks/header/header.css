@@ -9,4 +9,5 @@
   align-items: center;
     /*Вертикальное центрирование элемента*/
   justify-content: flex-start;
+  overflow: hidden;
 }

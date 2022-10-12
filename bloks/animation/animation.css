@@ -1,0 +1,5 @@
+.animation {
+  animation: rotation 20s infinite;
+  overflow: hidden;
+  /*Скрыть переполнение родительского блока при повороте*/
+}
